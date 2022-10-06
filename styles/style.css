@@ -92,7 +92,6 @@
   left: 64px;
   font-size: 18px;
   line-height: 25px;
-  font-weight: normal;
   width: 388px;
   z-index: 2;
 }
@@ -107,7 +106,6 @@
   background-size: cover;
   width: 765px;
   height: 608px;
-
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -150,7 +148,6 @@
 .two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
-  font-weight: normal;
   margin: 0;
 }
 
@@ -165,10 +162,6 @@
 /*DIGITS*/
 .digits {
   margin-bottom: 100px;
-}
-
-.digits__container {
-
 }
 
 .digits__section-title {
@@ -200,7 +193,6 @@
 .table__text {
   font-size: 18px;
   line-height: 1.2;
-  font-weight: normal;
   margin: 0;
   margin-top: 20px;
 }
@@ -216,24 +208,26 @@
   height: 890px;
   padding-top: 100px;
 }
+
 .feynman__title {
   font-size: 120px;
   width: 648px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
+
 .feynman__subtitle {
   font-size: 36px;
   line-height: 51px;
   margin: 0;
 }
+
 .feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
   font-size: 36px;
   line-height: 51px;
-  font-weight: normal;
 }
 /*FEYNMAN*/
 
@@ -247,7 +241,9 @@
   background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
+  z-index: -2;
 }
+
 .kaufman__section-title_theme_dark {
   color: #fff;
   margin: 0;
@@ -268,7 +264,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 2;
 }
 
 .kaufman__trangle {
@@ -279,6 +274,7 @@
   background-size: contain;
   width: 877px;
   height: 877px;
+  z-index: -1;
 }
 /*KAUFMAN*/
 
@@ -291,18 +287,21 @@
   padding-bottom: 40px;
   min-height: 350px;
 }
+
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
 }
+
 .footer__column_content_copyright {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   flex-basis: 711px;
 }
+
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   background-size: contain;
@@ -310,12 +309,15 @@
   width: 228px;
   height: 32px;
 }
+
 .footer__author {
   margin: 18px 0;
 }
+
 .footer__column_content_info {
   margin-bottom: 16px;
 }
+
 .footer__column-heading {
   font-size: 18px;
   line-height: 30px;
@@ -323,21 +325,23 @@
   margin: 0;
   margin-bottom: 20px;
 }
+
 .footer__column-links {
   margin: 0;
 }
+
 .footer__column-link {
   font-size: 18px;
   line-height: 30px;
-  font-weight: normal;
   color: #fff;
   text-decoration: none;
   margin-bottom: 10px;
 }
+
 .footer__column_content_social {
   margin-bottom: 16px;
-
 }
+
 .footer__social-icon {
   margin: 0;
 }
