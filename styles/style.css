@@ -90,6 +90,8 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
+  padding: 0;
+  margin: 0;
   font-size: 18px;
   line-height: 25px;
   width: 388px;
@@ -200,12 +202,13 @@
 
 /*FEYNMAN*/
 .feynman {
+  box-sizing: border-box;
   position: relative;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   padding-top: 100px;
 }
 
@@ -241,21 +244,21 @@
   background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
-  z-index: -2;
+  z-index: 1;
 }
 
-.kaufman__section-title_theme_dark {
+.section-title_theme_dark {
   color: #fff;
   margin: 0;
   margin-bottom: 20px;
 }
 
-.kaufman__section-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
   margin: 0;
 }
 
-.kaufman__table_theme_dark {
+.table_theme_dark {
   margin: 0 auto;
 }
 
@@ -311,7 +314,10 @@
 }
 
 .footer__author {
+  font-size: 18px;
+  line-height: 25px;
   margin: 18px 0;
+  padding: 0;
 }
 
 .footer__column_content_info {
@@ -333,7 +339,6 @@
 .footer__column-link {
   font-size: 18px;
   line-height: 30px;
-  color: #fff;
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -343,25 +348,10 @@
 }
 
 .footer__social-icon {
-  margin: 0;
+  margin-right: 10px;
 }
 
 .footer__link {
   color: #fff;
-}
-
-.social__youtube::before {
-  content: url(../images/youtube-icon.svg);
-  padding-right: 10px;
-}
-
-.social__vk::before {
-  content: url(../images/vk_color_white.svg);
-  padding-right: 10px;
-}
-
-.social__tiktok::before {
-  content: url(../images/tiktok-icon.svg);
-  padding-right: 10px;
 }
 /*FOOTER*/
