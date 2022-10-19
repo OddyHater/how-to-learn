@@ -1,0 +1,7 @@
+.techniques__section-subtitle {
+  margin: 0; /*обнуляем отсутпы по умолчанию*/
+  padding: 0; /*обнуляем отсутпы по умолчанию*/
+  width: 60%;
+  margin: 0 auto;
+  
+}

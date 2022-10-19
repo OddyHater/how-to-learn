@@ -1,0 +1,5 @@
+.video__section-title {
+  margin: 0; /*обнуление стилей по умолчанию*/
+  padding: 0; /*обнуление стилей по умолчанию*/
+  margin-bottom: 20px;
+}
