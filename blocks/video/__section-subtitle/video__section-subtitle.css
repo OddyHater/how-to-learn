@@ -1,4 +1,4 @@
 .video__section-subtitle {
-  margin: 0; /*обнуление стилей по умолчанию*/
-  padding: 0; /*обнуление стилей по умолчанию*/
+  padding: 0;
+  margin-bottom: 50px;
 }
